@@ -5,7 +5,7 @@ import streamlit as st
 # File path
 data_file = "library.txt"
 
-# Functions (waisa hi rahega)
+# Functions 
 def load_library():
     if os.path.exists(data_file):
         with open(data_file, 'r') as file:
